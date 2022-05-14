@@ -1,0 +1,18 @@
+/* style.css */
+
+header {
+  background-color: #1f2937;
+}
+
+.headerlogo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.headerlinks {
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
