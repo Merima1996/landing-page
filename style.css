@@ -4,15 +4,78 @@ header {
   background-color: #1f2937;
 }
 
+.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin: 0px 200px;
+}
+
+.handh div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: baseline;
+}
+
 .headerlogo {
   font-size: 24px;
   color: #f9faf8;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .headerlinks {
-  font-size: 40px;
+  display: flex;
+  justify-content: end;
+}
+
+.headerlinks a {
+  font-size: 18px;
+  color: #e5e7eb;
+  flex-direction: row;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.tandp {
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  align-items: baseline;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+}
+
+.text1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.text2 {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.text3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.texts div {
+  display: flex;
+  padding: 10px;
+  margin-left: px;
+}
+
+.picturep {
+  color: white;
+  display: flex;
+  padding: 100px;
+  background-color: lightgrey;
+  margin: 30px;
 }
