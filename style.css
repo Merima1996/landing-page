@@ -7,8 +7,10 @@ header {
 .head {
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  margin: 0px 200px;
+  justify-content: flex-start;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-bottom: 100px;
 }
 
 .handh div {
@@ -41,12 +43,13 @@ header {
 .tandp {
   display: flex;
   flex-direction: row;
-  align-items: baseline;
+  align-items: center;
 }
 
 .texts {
   display: flex;
   flex-direction: column;
+  gap: 5px;
 }
 
 .text1 {
@@ -64,18 +67,34 @@ header {
   font-size: 18px;
   font-weight: bold;
   color: whitesmoke;
+  background-color: dodgerblue;
+  padding: 20px;
+  width: 100px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .texts div {
   display: flex;
   padding: 10px;
-  margin-left: px;
 }
 
 .picturep {
   color: white;
-  display: flex;
   padding: 100px;
   background-color: lightgrey;
   margin: 30px;
+  width: 450px;
+  text-align: center;
+}
+
+.info {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding: 30px;
 }
