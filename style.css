@@ -176,8 +176,8 @@ header {
 
 .qoutep {
   background-color: #e5e7eb;
-  height: 100px;
-  padding-top: 150px;
+  height: 150px;
+  padding-top: 100px;
   padding-bottom: 150px;
 }
 
@@ -196,4 +196,58 @@ header {
   font-size: 24px;
   font-style: normal;
   font-weight: bold;
+}
+
+.ctoa {
+  height: 150px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ctat {
+  height: 150px;
+  width: 1000px;
+  background-color: dodgerblue;
+  border-radius: 10px;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bef {
+  display: flex;
+  flex-direction: column;
+}
+
+.btext {
+  font-weight: bold;
+  font-size: 22px;
+  color: #f9faf8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.stext {
+  font-size: 20px;
+  color: #f9faf8;
+}
+
+.button {
+  font-size: 17px;
+  font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+  width: 100px;
+  color: #f9faf8;
+  border-width: 2px;
+  border-color: #f9faf8;
+  border-style: solid;
+  border-radius: 5px;
+  text-align: center;
 }
