@@ -4,6 +4,10 @@ header {
   background-color: #1f2937;
 }
 
+body {
+  margin: auto;
+}
+
 .head {
   display: flex;
   flex-direction: column;
