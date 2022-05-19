@@ -84,7 +84,7 @@ header {
 .picturep {
   color: white;
   padding: 100px;
-  background-color: lightgrey;
+  background-color: grey;
   margin: 30px;
   width: 450px;
   text-align: center;
@@ -97,4 +97,103 @@ header {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
   padding: 30px;
+}
+
+.pic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.pic1 div {
+  border-style: solid;
+  border-width: 5px;
+  border-color: dodgerblue;
+  height: 170px;
+  width: 170px;
+  border-radius: 30px;
+}
+
+.pic1 p {
+  width: 170px;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  color: dimgray;
+}
+
+.pic2 div {
+  border-style: solid;
+  border-width: 5px;
+  border-color: dodgerblue;
+  height: 170px;
+  width: 170px;
+  border-radius: 30px;
+}
+
+.pic2 p {
+  width: 170px;
+  font-size: 18px;
+  text-align: center;
+  color: dimgray;
+}
+
+.pic3 div {
+  border-style: solid;
+  border-width: 5px;
+  border-color: dodgerblue;
+  height: 170px;
+  width: 170px;
+  border-radius: 30px;
+}
+
+.pic3 p {
+  width: 170px;
+  font-size: 18px;
+  text-align: center;
+  color: dimgray;
+}
+
+.pic4 div {
+  border-style: solid;
+  border-width: 5px;
+  border-color: dodgerblue;
+  height: 170px;
+  width: 170px;
+  border-radius: 30px;
+}
+
+.pic4 p {
+  width: 170px;
+  font-size: 18px;
+  text-align: center;
+  color: dimgray;
+}
+
+.qoutep {
+  background-color: #e5e7eb;
+  height: 100px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.qandt {
+  margin-left: 300px;
+  margin-right: 300px;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  padding: 15px;
+}
+
+.thor {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
 }
